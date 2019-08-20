@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clicker</title>
+</head>
+<body><center>
+<h1 id="2">0</h1>
+<img src="inx960x640.jpg" onclick="click1()" width="200"><br/></center>
+</body><button onclick="click1()"></button><br/>
+<audio src="zvon-brosanija-monet%20(www.mp3cut.ru).mp3" id="1"></audio>
+<script>
+    score=0
+    function click1() {
+        document.getElementById('1').play()
+        score=score+1
+        document.getElementById('2').innerHTML = score
+    }
+    </script>
+</html>
